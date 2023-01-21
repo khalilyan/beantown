@@ -104,11 +104,14 @@
     .Poster1{
         display: flex;
         flex-direction: column;
+        gap: 50px;
     }
     .Poster2{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
+        width: 100%;
+        margin: 0;
     }
     .footerList{
         display: flex;
@@ -126,6 +129,26 @@
     }
 }
 
-@media (max-width: 479px){
-    
+@media (max-width: 768px){
+    .Poster1{
+        zoom: 80%;
+    }
+    #footerTxt{
+        padding-bottom: 20px;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+@media (max-width: 435px){
+    .Poster2{
+        zoom: 75%;
+    }
+    .P2Box{
+        line-height: 20px;
+    }
+    #footerTxt{
+        width: 100%;
+    }
 }

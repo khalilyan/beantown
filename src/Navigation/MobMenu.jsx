@@ -43,7 +43,7 @@ export default function MobMenu() {
        exit={{display: 'none', opacity: 0}}
         >
           {
-            menu.map(((item,index) => <span className='MobMenuItem' >
+            menu.map(((item,index) => <span key={index} className='MobMenuItem' >
             <label onClick={()=>scrollToPage(index)}>{item.title}</label>
             </span>
               ))

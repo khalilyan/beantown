@@ -54,7 +54,7 @@ export default function Layout() {
         <nav className='navBar' >
           {
             menu.map(((item,index) => <span key={index} >
-            <label onClick={()=>scrollToPage(index)}>{item.title}</label>
+            <motion.label whileHover={()=>setSelected(index)} onClick={()=>scrollToPage(index)}>{item.title}</motion.label>
             {selected===index && <motion.div layoutId='Active' id='line'></motion.div>}
             </span>
               ))

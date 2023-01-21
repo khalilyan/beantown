@@ -160,7 +160,7 @@ li{
 
 @media (max-width: 768px){
     #Watchimage{
-        width: 90%;
+        width: 80%;
     }
     .AboutContent{
         zoom: 80%;
@@ -180,6 +180,12 @@ li{
     .Difbox, .box{
         width: 50%;
     }
+    .Watchinf{
+        width: 80%;
+    }
+    #Watchimage{
+        padding: 50px 0;
+    }
 }
 @media (max-width: 425px){
     .AboutContent{
@@ -191,6 +197,7 @@ li{
     }
     #Watchimage{
         width: 80%;
+        padding: 10px;
     }
     
 }
