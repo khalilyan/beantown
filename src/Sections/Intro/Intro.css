@@ -1,0 +1,96 @@
+.IntroContain{
+    background-image: url('../../Images/download.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.IntroWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.IntroContent{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.ParallaxList{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+.ParralaxPoster{
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+}
+#PosterTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    font-size: 500%; /*xaxaxa*/
+}
+
+#PosterTitle2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 3;
+    position: relative;
+    bottom: 7%;
+}
+
+@media (max-width: 1440px){
+    .ParallaxList{
+        zoom: 80%;
+    }
+}
+
+@media (max-width: 1024px){
+    .ParallaxList{
+        zoom: 60%;
+    }
+}
+
+@media (max-width: 768px){
+    .ParallaxList{
+        zoom: 35%;
+    }
+    .IntroContain{
+        height: 70vh;
+    }
+}
+@media (max-width: 425px){
+    .ParallaxList{
+        zoom: 30%;
+    }
+    
+}
+@media (max-width: 375px){
+    .ParallaxList{
+        zoom: 25%;
+    }
+}
+@media (max-width: 320px){
+    .ParallaxList{
+        zoom: 20%;
+    }
+}

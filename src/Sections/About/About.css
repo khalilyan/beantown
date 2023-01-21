@@ -1,0 +1,202 @@
+:root{
+    --silverColor: #353638
+}
+
+
+.AboutContain{
+    background-image: url('../../Images/backgr2.png');
+    background-position: top;
+    background-size: auto;
+    background-attachment: fixed;
+    width: 100%;
+    height: 30%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.AboutWrapper{
+    padding: 5%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+.AboutContent{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    top: 0;
+    left: 0;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.AboutB1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+.Watchinf{
+    width: 40%;
+}
+#Title{
+    font-weight: 100;
+    letter-spacing: 5px;
+    color: var(--silverColor);
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 15px;
+}
+#sub{
+    font-size: 32px;
+    line-height: 34px;
+    margin-bottom: 15px;
+    font-weight: 400;
+    color: #46c3ff;
+    font-family: "Source Sans Pro", Arial, Tahoma, sans-serif;
+    margin-bottom: 15px;
+}
+
+#p1,#p2{
+    color: silver;
+    margin: 0 0 15px;
+    line-height: 180%;
+}
+
+#Watchimage{
+    min-width: 20px;
+    min-height: 20px;
+    width: 586px;
+    height: auto
+}
+
+.listBoxes{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.Difbox{
+    width: 20%;
+    padding: 25px 20px 25px 30px;
+    word-wrap: break-word;
+    background-image: url('./itemBG.png');
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+#DifboxTitle{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+li{
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+#check{
+    border-bottom: 1px solid white;
+    padding: 10px;
+    opacity: 0.4;
+}
+
+
+.box{
+    padding: 20px 2%;
+    font-size: smaller;
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 50%;
+    width: 20%;
+}
+
+#boxTitle{
+    color: #3b4ed3;;
+    width: 90%;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding: 0px 20px 25px 0px;
+}
+
+#boxAbout{
+    color: silver;
+    width: 100%;
+}
+
+
+@media (max-width: 1440px){
+    .AboutContent{
+      zoom: 70%;
+    } 
+}
+
+@media (max-width: 1024px){
+    .AboutContent{
+        zoom: 60%;
+    } 
+}
+
+@media (max-width: 768px){
+    #Watchimage{
+        width: 90%;
+    }
+    .AboutContent{
+        zoom: 80%;
+        width: 100%;
+    } 
+    .AboutB1{
+        display: flex;
+        flex-direction: column;
+    }
+    .listBoxes{
+        align-items: center;
+        width: 100%;
+        zoom: 120%;
+        display: flex;
+        flex-direction: column;
+    }
+    .Difbox, .box{
+        width: 50%;
+    }
+}
+@media (max-width: 425px){
+    .AboutContent{
+        width: 100%;
+    } 
+    #Title{
+        font-size: xx-large;
+        line-height: normal;
+    }
+    #Watchimage{
+        width: 80%;
+    }
+    
+}
+@media (max-width: 375px){
+   
+}
+@media (max-width: 320px){
+   
+}
