@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/beantown/static/css/main.3aeba70f.css",
-    "main.js": "/beantown/static/js/main.a82521c5.js",
+    "main.js": "/beantown/static/js/main.18643ac5.js",
     "static/media/download.jpg": "/beantown/static/media/download.271b8cccbe4b98d29fc8.jpg",
     "static/media/home_smart_watch.png": "/beantown/static/media/home_smart_watch.847cd6dbc1c6c3483825.png",
     "static/media/home_smart_video_2.png": "/beantown/static/media/home_smart_video_2.1b2c1a541ebbd3cb9e9c.png",
@@ -11,10 +11,10 @@
     "static/media/home_smart_slider_bg2.png": "/beantown/static/media/home_smart_slider_bg2.9772492aad5cc0ace1b2.png",
     "index.html": "/beantown/index.html",
     "main.3aeba70f.css.map": "/beantown/static/css/main.3aeba70f.css.map",
-    "main.a82521c5.js.map": "/beantown/static/js/main.a82521c5.js.map"
+    "main.18643ac5.js.map": "/beantown/static/js/main.18643ac5.js.map"
   },
   "entrypoints": [
     "static/css/main.3aeba70f.css",
-    "static/js/main.a82521c5.js"
+    "static/js/main.18643ac5.js"
   ]
 }
